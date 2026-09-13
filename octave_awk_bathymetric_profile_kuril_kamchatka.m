@@ -1,3 +1,23 @@
+# ============================================================================
+# AWK + GNU Octave: cross-section bathymetric profile of the Kuril-Kamchatka
+# Trench (single profile, with AWK column preprocessing)
+#
+# This script produced an Octave figure in the peer-reviewed article:
+#   Lemenkova, P. (2019). AWK and GNU Octave Programming Languages Integrated
+#   with Generic Mapping Tools for Geomorphological Analysis.
+#   GeoScience Engineering, 65(4), 1-22.
+#   DOI:      https://doi.org/10.35180/gse-2019-0020
+#   figshare: https://doi.org/10.6084/m9.figshare.11374542
+#   HAL:      https://hal.science/hal-02425687
+#   Zenodo:   https://zenodo.org/record/3579575
+#   SSRN:     https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3505007
+#
+# The article integrates AWK, GNU Octave and GMT (Generic Mapping Tools); this
+# repository holds the AWK-preprocessing + GNU Octave plotting for one profile.
+#
+# Author: Polina Lemenkova  |  ORCID: 0000-0002-5759-1089
+# ============================================================================
+
 # Script to plot cross-section bathymetric profile (here: profile #1, Kuril-Kamchatka Trench)
 # cd /Users/pauline/Documents/Octave
 # reshaped initial table by AWK: select two necessary columns; field separator as space.
